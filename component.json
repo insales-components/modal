@@ -1,0 +1,22 @@
+{
+  "name": "modal",
+  "version": "1.0.0",
+  "description": "Модальные окна",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/modal",
+  "props": {
+    "liquid": true
+  },
+  "plugins": [
+    {
+      "name": "fancybox",
+      "files": ["https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css", "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"]
+    },
+    {
+      "name": "microAlert",
+      "files": ["https://cdn.jsdelivr.net/gh/VladimirIvanin/microAlert@0.1.0/microAlert.js", "https://cdn.jsdelivr.net/gh/VladimirIvanin/microAlert@0.1.0/microAlert.css"]
+    }
+  ],
+  "dependencies": {}
+}
